@@ -6,6 +6,7 @@
 #include "Masina.h"
 #include "ContBancar.h"
 #include "Pasare.h"
+#include "GameServer.h"
 
 
 class dateOfBirth
@@ -99,6 +100,16 @@ public:
 
 int main()
 {
+
+    GameServer server_1(5 , 10);
+    server_1.printServerInfo();
+       
+
+
+
+
+
+
     myClass obj;
     obj.printData();
     // inca un mod de a creea obiecte in C++
